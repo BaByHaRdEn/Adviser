@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+}
+
+#advice-box{
+    background-color: hsl(217, 19%, 24%);
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-family: Manrope;
+    font-weight: 800;
+    position: relative;
+}
+
+#advice-box p{
+    color:hsl(150, 100%, 66%);
+}
+
+#advice-area h2{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+#advice-area{
+    margin-bottom: 50px;
+}
+
+#dice{
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    background-color: hsl(150, 100%, 66%);
+    bottom: -12%;
+    left: 45%;
+    padding: 20px;
+    border: none;
+}
+#dice:hover{
+    box-shadow: 0px 0px 20px 5px hsl(150, 100%, 66%) ;
+    cursor: pointer;
+   }
+   .attribution{
+    margin-top: 10% ;
+   }
+
+
+   @media only screen and (max-width: 800px) {
+    #advice-box{
+        width: 95%;
+    }
+    #advice-area img{
+        content: url("images/pattern-divider-mobile.svg");
+    }
+
+    #dice{
+        left: 40%;
+    }
+
+    .attribution{
+        margin-top: 20% ;
+       }
+   }
